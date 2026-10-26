@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://dqre8rkv6duru"]
+
+[ext_resource type="Script" uid="uid://gmq3sbblrdab" path="res://scenes/shared/stomp_box.gd" id="1_y3773"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_y3773"]
+size = Vector2(20, 3)
+
+[node name="StompBox" type="Area2D" unique_id=1488494258]
+collision_layer = 16
+collision_mask = 0
+script = ExtResource("1_y3773")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1517007400]
+shape = SubResource("RectangleShape2D_y3773")
+debug_color = Color(0.9842631, 0.097496845, 0.20171434, 0.41960785)
